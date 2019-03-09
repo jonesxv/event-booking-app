@@ -1,0 +1,32 @@
+{
+  "name": "event-booking-app",
+  "version": "1.0.0",
+  "description": "Event booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesxv/event-booking-app.git"
+  },
+  "keywords": [
+    "event"
+  ],
+  "author": "Ryan Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonesxv/event-booking-app/issues"
+  },
+  "homepage": "https://github.com/jonesxv/event-booking-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
